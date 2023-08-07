@@ -1,11 +1,9 @@
 using RequestForwarding;
-using OpenApiValidator;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRequestForwarding();
-builder.Services.AddOpenApiVerification();
 
 
 builder.Services.AddLogging(b =>

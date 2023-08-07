@@ -12,7 +12,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\AutoProxy\RequestForwarding.csproj" />
-    <ProjectReference Include="..\OpenApiValidator\OpenApiValidator.csproj" />
   </ItemGroup>
 
 </Project>
